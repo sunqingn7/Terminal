@@ -157,7 +157,7 @@ void MainWindow::clear()
         QWidget *tab = tabWidget->widget(currentIndex);
         QTermWidget *term = tab->findChild<QTermWidget*>();
         if (term) {
-            term->clear();
+            term->sendText("clear\n");
         }
     }
 }
