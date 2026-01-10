@@ -4,6 +4,8 @@
 #include <QFontDialog>
 #include <QCoreApplication>
 #include <QShortcut>
+#include <QContextMenuEvent>
+#include <QMenu>
 #include <qtermwidget.h>
 #include "SSHDialog.h"
 #include "ColorSchemeDialog.h"
@@ -135,6 +137,28 @@ void MainWindow::paste()
     }
 }
 
+bool MainWindow::eventFilter(QObject *obj, QEvent *event)
+{
+    if (event->type() == QEvent::ContextMenu) {
+        QContextMenuEvent *contextEvent = static_cast<QContextMenuEvent*>(event);
+        QTermWidget *term = qobject_cast<QTermWidget*>(obj);
+        if (term) {
+            // Create context menu
+            QMenu menu(this);
+            QAction *copyAction = menu.addAction("Copy");
+            connect(copyAction, &QAction::triggered, this, &MainWindow::copy);
+
+            QAction *pasteAction = menu.addAction("Paste");
+            connect(pasteAction, &QAction::triggered, this, &MainWindow::paste);
+
+            // Show menu at cursor position
+            menu.exec(contextEvent->globalPos());
+            return true; // Event handled
+        }
+    }
+    return QMainWindow::eventFilter(obj, event);
+}
+
 void MainWindow::createTerminalTab(const QString &program, const QStringList &args)
 {
     QWidget *tab = new QWidget;
@@ -143,8 +167,8 @@ void MainWindow::createTerminalTab(const QString &program, const QStringList &ar
     QTermWidget *term = new QTermWidget(0, tab);
     layout->addWidget(term);
 
-    // Enable context menu
-    term->setContextMenuPolicy(Qt::DefaultContextMenu);
+    // Install event filter for context menu
+    term->installEventFilter(this);
 
     if (!program.isEmpty()) {
         term->setShellProgram(program);

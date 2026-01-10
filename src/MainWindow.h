@@ -21,6 +21,9 @@ private slots:
     void copy();
     void paste();
 
+protected:
+    bool eventFilter(QObject *obj, QEvent *event) override;
+
 private:
     void createTerminalTab(const QString &program = "", const QStringList &args = QStringList());
 
