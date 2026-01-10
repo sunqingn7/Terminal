@@ -20,6 +20,9 @@ private slots:
     void changeFont();
     void copy();
     void paste();
+    void clear();
+    void zoomIn();
+    void zoomOut();
 
 protected:
     bool eventFilter(QObject *obj, QEvent *event) override;

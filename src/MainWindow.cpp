@@ -50,6 +50,17 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     QShortcut *pasteShortcut = new QShortcut(QKeySequence::Paste, this);
     connect(pasteShortcut, &QShortcut::activated, this, &MainWindow::paste);
 
+
+
+    QShortcut *clearShortcut = new QShortcut(QKeySequence("Ctrl+L"), this);
+    connect(clearShortcut, &QShortcut::activated, this, &MainWindow::clear);
+
+    QShortcut *zoomInShortcut = new QShortcut(QKeySequence::ZoomIn, this);
+    connect(zoomInShortcut, &QShortcut::activated, this, &MainWindow::zoomIn);
+
+    QShortcut *zoomOutShortcut = new QShortcut(QKeySequence::ZoomOut, this);
+    connect(zoomOutShortcut, &QShortcut::activated, this, &MainWindow::zoomOut);
+
     createTerminalTab();
 }
 
@@ -137,6 +148,44 @@ void MainWindow::paste()
     }
 }
 
+
+
+void MainWindow::clear()
+{
+    int currentIndex = tabWidget->currentIndex();
+    if (currentIndex >= 0) {
+        QWidget *tab = tabWidget->widget(currentIndex);
+        QTermWidget *term = tab->findChild<QTermWidget*>();
+        if (term) {
+            term->clear();
+        }
+    }
+}
+
+void MainWindow::zoomIn()
+{
+    int currentIndex = tabWidget->currentIndex();
+    if (currentIndex >= 0) {
+        QWidget *tab = tabWidget->widget(currentIndex);
+        QTermWidget *term = tab->findChild<QTermWidget*>();
+        if (term) {
+            term->zoomIn();
+        }
+    }
+}
+
+void MainWindow::zoomOut()
+{
+    int currentIndex = tabWidget->currentIndex();
+    if (currentIndex >= 0) {
+        QWidget *tab = tabWidget->widget(currentIndex);
+        QTermWidget *term = tab->findChild<QTermWidget*>();
+        if (term) {
+            term->zoomOut();
+        }
+    }
+}
+
 bool MainWindow::eventFilter(QObject *obj, QEvent *event)
 {
     if (event->type() == QEvent::ContextMenu) {
@@ -146,10 +195,28 @@ bool MainWindow::eventFilter(QObject *obj, QEvent *event)
             // Create context menu
             QMenu menu(this);
             QAction *copyAction = menu.addAction("Copy");
+            copyAction->setShortcut(QKeySequence::Copy);
             connect(copyAction, &QAction::triggered, this, &MainWindow::copy);
 
             QAction *pasteAction = menu.addAction("Paste");
+            pasteAction->setShortcut(QKeySequence::Paste);
             connect(pasteAction, &QAction::triggered, this, &MainWindow::paste);
+
+            menu.addSeparator();
+
+            QAction *clearAction = menu.addAction("Clear");
+            clearAction->setShortcut(QKeySequence("Ctrl+L"));
+            connect(clearAction, &QAction::triggered, this, &MainWindow::clear);
+
+            menu.addSeparator();
+
+            QAction *zoomInAction = menu.addAction("Zoom In");
+            zoomInAction->setShortcut(QKeySequence::ZoomIn);
+            connect(zoomInAction, &QAction::triggered, this, &MainWindow::zoomIn);
+
+            QAction *zoomOutAction = menu.addAction("Zoom Out");
+            zoomOutAction->setShortcut(QKeySequence::ZoomOut);
+            connect(zoomOutAction, &QAction::triggered, this, &MainWindow::zoomOut);
 
             // Show menu at cursor position
             menu.exec(contextEvent->globalPos());
