@@ -2,6 +2,7 @@
 #include <QVBoxLayout>
 #include <QAction>
 #include <QFontDialog>
+#include <QCoreApplication>
 #include <qtermwidget.h>
 #include "SSHDialog.h"
 #include "ColorSchemeDialog.h"
@@ -13,6 +14,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 
     tabWidget = new QTabWidget;
     setCentralWidget(tabWidget);
+
+    QTermWidget::addCustomColorSchemeDir(QCoreApplication::applicationDirPath() + "/color-schemes");
 
     menuBar = new QMenuBar(this);
     setMenuBar(menuBar);
