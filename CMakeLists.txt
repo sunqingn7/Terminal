@@ -11,12 +11,6 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(UPDATE_TRANSLATIONS OFF CACHE BOOL "Update source translation translations/*.ts files" FORCE)
-set(BUILD_EXAMPLE OFF CACHE BOOL "Build example application. Default OFF." FORCE)
-set(QTERMWIDGET_USE_UTEMPTER OFF CACHE BOOL "Uses libutempter on Linux or libulog on FreeBSD for login records." FORCE)
-set(QTERMWIDGET_BUILD_PYTHON_BINDING OFF CACHE BOOL "Build python binding" FORCE)
-set(USE_UTF8PROC OFF CACHE BOOL "Use libutf8proc for better Unicode support. Default OFF" FORCE)
-
 add_subdirectory(3rdparty/qtermwidget)
 
 add_executable(${PROJECT_NAME}
