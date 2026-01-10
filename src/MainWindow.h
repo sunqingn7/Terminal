@@ -1,0 +1,28 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QTabWidget>
+#include <QMenuBar>
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+private slots:
+    void newTab();
+    void connectSSH();
+
+private:
+    void createTerminalTab(const QString &program = "", const QStringList &args = QStringList());
+
+    QTabWidget *tabWidget;
+    QMenuBar *menuBar;
+    QMenu *fileMenu;
+};
+
+#endif // MAINWINDOW_H

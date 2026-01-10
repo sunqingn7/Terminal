@@ -1,0 +1,5 @@
+-I/home/qing/Projects/Terminal/3rdparty/qtermwidget
+-I/home/qing/Projects/Terminal/build/3rdparty/qtermwidget
+-o
+/home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_kprocess.cpp
+/home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kprocess.h
