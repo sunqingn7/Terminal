@@ -1,0 +1,3 @@
+[submodule "3rdparty/qtermwidget"]
+	path = 3rdparty/qtermwidget
+	url = https://github.com/lxqt/qtermwidget.git
