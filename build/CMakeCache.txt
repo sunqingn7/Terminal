@@ -56,6 +56,9 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
+//C++ ISO Standard
+CMAKE_CXX_STANDARD:STRING=17
+
 //C compiler
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
@@ -321,6 +324,9 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 
+//The directory containing a CMake configuration file for Qt5LinguistTools.
+Qt5LinguistTools_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools
+
 //The directory containing a CMake configuration file for Qt6CoreTools.
 Qt6CoreTools_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools
 
@@ -383,6 +389,9 @@ XKB_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 XKB_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
+
+//The directory containing a CMake configuration file for lxqt-build-tools.
+lxqt-build-tools_DIR:PATH=/usr/share/cmake/lxqt-build-tools
 
 //The directory containing a CMake configuration file for lxqt2-build-tools.
 lxqt2-build-tools_DIR:PATH=lxqt2-build-tools_DIR-NOTFOUND

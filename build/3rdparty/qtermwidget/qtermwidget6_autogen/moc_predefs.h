@@ -121,6 +121,7 @@
 #define __gnu_linux__ 1
 #define __INT16_MAX__ 0x7fff
 #define __FLT64_MIN_EXP__ (-1021)
+#define QT_NO_URL_CAST_FROM_STRING 1
 #define __FLT64X_MIN_10_EXP__ (-4931)
 #define __LDBL_HAS_QUIET_NAN__ 1
 #define __cpp_return_type_deduction 201304L
@@ -153,6 +154,7 @@
 #define __UINT_LEAST32_MAX__ 0xffffffffU
 #define __FLT32X_HAS_DENORM__ 1
 #define __INT_FAST16_TYPE__ long int
+#define __STRICT_ANSI__ 1
 #define __MMX_WITH_SSE__ 1
 #define __LDBL_HAS_DENORM__ 1
 #define QT_WIDGETS_LIB 1
@@ -184,6 +186,7 @@
 #define __LONG_LONG_WIDTH__ 64
 #define __cpp_initializer_lists 200806L
 #define __FLT32_MAX_EXP__ 128
+#define QT_NO_CAST_FROM_ASCII 1
 #define ABI_ID "ELF"
 #define __cpp_hex_float 201603L
 #define __GXX_ABI_VERSION 1018
@@ -227,6 +230,7 @@
 #define __GCC_ATOMIC_INT_LOCK_FREE 2
 #define __FLT128_MAX_EXP__ 16384
 #define __FLT32_MANT_DIG__ 24
+#define QT_USE_QSTRINGBUILDER 1
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
 #define SIZEOF_DPTR (sizeof(void*))
 #define __FLT32X_MIN_EXP__ (-1021)
@@ -244,7 +248,6 @@
 #define __INT_FAST32_TYPE__ long int
 #define __UINT_LEAST16_TYPE__ short unsigned int
 #define __DEC128_MAX_EXP__ 6145
-#define unix 1
 #define __DBL_HAS_DENORM__ 1
 #define __cpp_rtti 199711L
 #define __UINT64_MAX__ 0xffffffffffffffffUL
@@ -319,13 +322,13 @@
 #define __INTPTR_MAX__ 0x7fffffffffffffffL
 #define __cpp_sized_deallocation 201309L
 #define __cpp_guaranteed_copy_elision 201606L
-#define linux 1
 #define __FLT64_HAS_QUIET_NAN__ 1
 #define __FLT32_MIN_10_EXP__ (-37)
 #define __EXCEPTIONS 1
 #define __UINT16_C(c) c
 #define __PTRDIFF_WIDTH__ 64
 #define __LDBL_MANT_DIG__ 64
+#define QT_NO_CAST_TO_ASCII 1
 #define __cpp_range_based_for 201603L
 #define __INT_FAST16_WIDTH__ 64
 #define __FLT64_HAS_INFINITY__ 1
@@ -390,6 +393,7 @@
 #define __FLT64_MAX_EXP__ 1024
 #define __SIZEOF_WCHAR_T__ 4
 #define __GNUC_PATCHLEVEL__ 0
+#define QT_NO_CAST_FROM_BYTEARRAY 1
 #define __FLT128_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F128
 #define __FLT64_NORM_MAX__ 1.79769313486231570814527423731704357e+308F64
 #define __FLT128_HAS_QUIET_NAN__ 1
@@ -398,6 +402,7 @@
 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
 #define __STDCPP_THREADS__ 1
 #define __BFLT16_HAS_DENORM__ 1
+#define QT_NO_FOREACH 1
 #define __GNUC_STDC_INLINE__ 1
 #define __FLT64_HAS_DENORM__ 1
 #define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
@@ -439,11 +444,9 @@
 #define qtermwidget6_EXPORTS 1
 #define __INT_LEAST32_WIDTH__ 32
 #define __INTMAX_TYPE__ long int
-#define __GLIBCXX_BITSIZE_INT_N_0 128
 #define __FLT32X_HAS_QUIET_NAN__ 1
 #define __ATOMIC_CONSUME 1
 #define __GNUC_MINOR__ 3
-#define __GLIBCXX_TYPE_INT_N_0 __int128
 #define __UINTMAX_MAX__ 0xffffffffffffffffUL
 #define __PIE__ 2
 #define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x

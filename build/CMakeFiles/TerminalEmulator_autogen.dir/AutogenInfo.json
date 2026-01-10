@@ -183,6 +183,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/qing/Projects/Terminal/src/ColorSchemeDialog.h",
+			"MU",
+			"UVLADIE3JM/moc_ColorSchemeDialog.cpp",
+			null
+		],
+		[
 			"/home/qing/Projects/Terminal/src/MainWindow.h",
 			"MU",
 			"UVLADIE3JM/moc_MainWindow.cpp",
@@ -255,6 +261,7 @@
 	"SETTINGS_FILE" : "/home/qing/Projects/Terminal/build/CMakeFiles/TerminalEmulator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/qing/Projects/Terminal/src/ColorSchemeDialog.cpp", "MU", null ],
 		[ "/home/qing/Projects/Terminal/src/MainWindow.cpp", "MU", null ],
 		[ "/home/qing/Projects/Terminal/src/SSHDialog.cpp", "MU", null ],
 		[ "/home/qing/Projects/Terminal/src/main.cpp", "MU", null ]

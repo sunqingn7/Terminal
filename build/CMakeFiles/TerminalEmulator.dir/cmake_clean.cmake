@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "TerminalEmulator_autogen"
   "CMakeFiles/TerminalEmulator.dir/TerminalEmulator_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/TerminalEmulator.dir/TerminalEmulator_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.o"
+  "CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.o.d"
   "CMakeFiles/TerminalEmulator.dir/src/MainWindow.cpp.o"
   "CMakeFiles/TerminalEmulator.dir/src/MainWindow.cpp.o.d"
   "CMakeFiles/TerminalEmulator.dir/src/SSHDialog.cpp.o"

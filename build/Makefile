@@ -276,6 +276,30 @@ TerminalEmulator_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TerminalEmulator.dir/build.make CMakeFiles/TerminalEmulator.dir/TerminalEmulator_autogen/mocs_compilation.cpp.s
 .PHONY : TerminalEmulator_autogen/mocs_compilation.cpp.s
 
+src/ColorSchemeDialog.o: src/ColorSchemeDialog.cpp.o
+.PHONY : src/ColorSchemeDialog.o
+
+# target to build an object file
+src/ColorSchemeDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TerminalEmulator.dir/build.make CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.o
+.PHONY : src/ColorSchemeDialog.cpp.o
+
+src/ColorSchemeDialog.i: src/ColorSchemeDialog.cpp.i
+.PHONY : src/ColorSchemeDialog.i
+
+# target to preprocess a source file
+src/ColorSchemeDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TerminalEmulator.dir/build.make CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.i
+.PHONY : src/ColorSchemeDialog.cpp.i
+
+src/ColorSchemeDialog.s: src/ColorSchemeDialog.cpp.s
+.PHONY : src/ColorSchemeDialog.s
+
+# target to generate assembly for a file
+src/ColorSchemeDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TerminalEmulator.dir/build.make CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.s
+.PHONY : src/ColorSchemeDialog.cpp.s
+
 src/MainWindow.o: src/MainWindow.cpp.o
 .PHONY : src/MainWindow.o
 
@@ -370,6 +394,9 @@ help:
 	@echo "... TerminalEmulator_autogen/mocs_compilation.o"
 	@echo "... TerminalEmulator_autogen/mocs_compilation.i"
 	@echo "... TerminalEmulator_autogen/mocs_compilation.s"
+	@echo "... src/ColorSchemeDialog.o"
+	@echo "... src/ColorSchemeDialog.i"
+	@echo "... src/ColorSchemeDialog.s"
 	@echo "... src/MainWindow.o"
 	@echo "... src/MainWindow.i"
 	@echo "... src/MainWindow.s"

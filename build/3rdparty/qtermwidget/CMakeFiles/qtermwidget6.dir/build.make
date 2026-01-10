@@ -126,17 +126,165 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ui_SearchBar.h"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt6/libexec/uic -o /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/ui_SearchBar.h /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/SearchBar.ui
 
+3rdparty/qtermwidget/qtermwidget_ar.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ar.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating qtermwidget_ar.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ar.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_ar.qm
+
+3rdparty/qtermwidget/qtermwidget_arn.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_arn.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating qtermwidget_arn.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_arn.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_arn.qm
+
+3rdparty/qtermwidget/qtermwidget_ast.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ast.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating qtermwidget_ast.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ast.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_ast.qm
+
+3rdparty/qtermwidget/qtermwidget_bg.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_bg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating qtermwidget_bg.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_bg.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_bg.qm
+
+3rdparty/qtermwidget/qtermwidget_ca.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ca.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating qtermwidget_ca.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ca.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_ca.qm
+
+3rdparty/qtermwidget/qtermwidget_cs.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_cs.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating qtermwidget_cs.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_cs.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_cs.qm
+
+3rdparty/qtermwidget/qtermwidget_cy.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_cy.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating qtermwidget_cy.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_cy.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_cy.qm
+
+3rdparty/qtermwidget/qtermwidget_da.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_da.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating qtermwidget_da.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_da.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_da.qm
+
+3rdparty/qtermwidget/qtermwidget_de.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_de.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating qtermwidget_de.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_de.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_de.qm
+
+3rdparty/qtermwidget/qtermwidget_de_CH.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_de_CH.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating qtermwidget_de_CH.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_de_CH.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_de_CH.qm
+
+3rdparty/qtermwidget/qtermwidget_el.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_el.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating qtermwidget_el.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_el.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_el.qm
+
+3rdparty/qtermwidget/qtermwidget_es.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_es.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating qtermwidget_es.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_es.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_es.qm
+
+3rdparty/qtermwidget/qtermwidget_et.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_et.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating qtermwidget_et.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_et.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_et.qm
+
+3rdparty/qtermwidget/qtermwidget_fi.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_fi.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating qtermwidget_fi.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_fi.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_fi.qm
+
+3rdparty/qtermwidget/qtermwidget_fr.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_fr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating qtermwidget_fr.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_fr.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_fr.qm
+
+3rdparty/qtermwidget/qtermwidget_gl.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_gl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating qtermwidget_gl.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_gl.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_gl.qm
+
+3rdparty/qtermwidget/qtermwidget_he.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_he.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating qtermwidget_he.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_he.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_he.qm
+
+3rdparty/qtermwidget/qtermwidget_hr.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_hr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating qtermwidget_hr.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_hr.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_hr.qm
+
+3rdparty/qtermwidget/qtermwidget_hu.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_hu.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating qtermwidget_hu.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_hu.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_hu.qm
+
+3rdparty/qtermwidget/qtermwidget_it.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_it.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating qtermwidget_it.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_it.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_it.qm
+
+3rdparty/qtermwidget/qtermwidget_ja.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ja.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating qtermwidget_ja.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ja.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_ja.qm
+
+3rdparty/qtermwidget/qtermwidget_ko.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ko.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating qtermwidget_ko.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ko.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_ko.qm
+
+3rdparty/qtermwidget/qtermwidget_lg.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_lg.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating qtermwidget_lg.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_lg.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_lg.qm
+
+3rdparty/qtermwidget/qtermwidget_lt.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_lt.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating qtermwidget_lt.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_lt.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_lt.qm
+
+3rdparty/qtermwidget/qtermwidget_nb_NO.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_nb_NO.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating qtermwidget_nb_NO.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_nb_NO.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_nb_NO.qm
+
+3rdparty/qtermwidget/qtermwidget_nl.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_nl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating qtermwidget_nl.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_nl.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_nl.qm
+
+3rdparty/qtermwidget/qtermwidget_oc.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_oc.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating qtermwidget_oc.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_oc.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_oc.qm
+
+3rdparty/qtermwidget/qtermwidget_pl.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_pl.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating qtermwidget_pl.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_pl.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_pl.qm
+
+3rdparty/qtermwidget/qtermwidget_pt.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_pt.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating qtermwidget_pt.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_pt.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_pt.qm
+
+3rdparty/qtermwidget/qtermwidget_pt_BR.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_pt_BR.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating qtermwidget_pt_BR.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_pt_BR.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_pt_BR.qm
+
+3rdparty/qtermwidget/qtermwidget_ru.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ru.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating qtermwidget_ru.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_ru.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_ru.qm
+
+3rdparty/qtermwidget/qtermwidget_si.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_si.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating qtermwidget_si.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_si.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_si.qm
+
+3rdparty/qtermwidget/qtermwidget_sk.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_sk.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating qtermwidget_sk.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_sk.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_sk.qm
+
+3rdparty/qtermwidget/qtermwidget_tr.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_tr.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating qtermwidget_tr.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_tr.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_tr.qm
+
+3rdparty/qtermwidget/qtermwidget_uk.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_uk.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating qtermwidget_uk.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_uk.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_uk.qm
+
+3rdparty/qtermwidget/qtermwidget_zh_CN.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating qtermwidget_zh_CN.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_zh_CN.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_zh_CN.qm
+
+3rdparty/qtermwidget/qtermwidget_zh_TW.qm: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_zh_TW.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating qtermwidget_zh_TW.qm"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/lib/qt5/bin/lrelease /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/translations/qtermwidget_zh_TW.ts -qm /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget_zh_TW.qm
+
 3rdparty/qtermwidget/qtermwidget6_autogen/timestamp: /usr/lib/qt6/libexec/moc
 3rdparty/qtermwidget/qtermwidget6_autogen/timestamp: /usr/lib/qt6/libexec/uic
 3rdparty/qtermwidget/qtermwidget6_autogen/timestamp: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Automatic MOC and UIC for target qtermwidget6"
-	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/cmake -E cmake_autogen /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Automatic MOC and UIC for target qtermwidget6"
+	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/cmake -E cmake_autogen /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen.dir/AutogenInfo.json Release
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/cmake -E touch /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget6_autogen/timestamp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o: 3rdparty/qtermwidget/qtermwidget6_autogen/mocs_compilation.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/qtermwidget6_autogen/mocs_compilation.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/qtermwidget6_autogen/mocs_compilation.cpp.i: cmake_force
@@ -150,7 +298,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/BlockArray.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/BlockArray.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/BlockArray.cpp.i: cmake_force
@@ -164,7 +312,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/ColorScheme.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/ColorScheme.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ColorScheme.cpp.i: cmake_force
@@ -178,7 +326,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Emulation.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Emulation.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Emulation.cpp.i: cmake_force
@@ -192,7 +340,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Filter.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Filter.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Filter.cpp.i: cmake_force
@@ -206,7 +354,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/History.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/History.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/History.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/History.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/History.cpp.i: cmake_force
@@ -220,7 +368,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/HistorySearch.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/HistorySearch.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/HistorySearch.cpp.i: cmake_force
@@ -234,7 +382,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/KeyboardTranslator.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/KeyboardTranslator.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/KeyboardTranslator.cpp.i: cmake_force
@@ -248,7 +396,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/konsole_wcwidth.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/konsole_wcwidth.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/konsole_wcwidth.cpp.i: cmake_force
@@ -262,7 +410,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kprocess.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kprocess.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kprocess.cpp.i: cmake_force
@@ -276,7 +424,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kpty.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kpty.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kpty.cpp.i: cmake_force
@@ -290,7 +438,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kptydevice.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kptydevice.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptydevice.cpp.i: cmake_force
@@ -304,7 +452,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kptyprocess.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/kptyprocess.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/kptyprocess.cpp.i: cmake_force
@@ -318,7 +466,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Pty.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Pty.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Pty.cpp.i: cmake_force
@@ -332,7 +480,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/qtermwidget.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/qtermwidget.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/qtermwidget.cpp.i: cmake_force
@@ -346,7 +494,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Screen.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Screen.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Screen.cpp.i: cmake_force
@@ -360,7 +508,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/ScreenWindow.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/ScreenWindow.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ScreenWindow.cpp.i: cmake_force
@@ -374,7 +522,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/SearchBar.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/SearchBar.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/SearchBar.cpp.i: cmake_force
@@ -388,7 +536,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Session.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/Session.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Session.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Session.cpp.i: cmake_force
@@ -402,7 +550,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/ShellCommand.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/ShellCommand.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/ShellCommand.cpp.i: cmake_force
@@ -416,7 +564,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/TerminalCharacterDecoder.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/TerminalCharacterDecoder.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalCharacterDecoder.cpp.i: cmake_force
@@ -430,7 +578,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/TerminalDisplay.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/TerminalDisplay.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/TerminalDisplay.cpp.i: cmake_force
@@ -444,7 +592,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/tools.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/tools.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/tools.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/tools.cpp.i: cmake_force
@@ -458,7 +606,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o: /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Vt102Emulation.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.o -c /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Vt102Emulation.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/Vt102Emulation.cpp.i: cmake_force
@@ -472,7 +620,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o: 3rdparty/qtermwidget/lib/moc_Emulation.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_Emulation.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Emulation.cpp.i: cmake_force
@@ -486,7 +634,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o: 3rdparty/qtermwidget/lib/moc_Filter.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_Filter.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Filter.cpp.i: cmake_force
@@ -500,7 +648,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o: 3rdparty/qtermwidget/lib/moc_HistorySearch.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_HistorySearch.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_HistorySearch.cpp.i: cmake_force
@@ -514,7 +662,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o: 3rdparty/qtermwidget/lib/moc_kprocess.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_kprocess.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kprocess.cpp.i: cmake_force
@@ -528,7 +676,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o: 3rdparty/qtermwidget/lib/moc_kptydevice.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_kptydevice.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptydevice.cpp.i: cmake_force
@@ -542,7 +690,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o: 3rdparty/qtermwidget/lib/moc_kptyprocess.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_kptyprocess.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_kptyprocess.cpp.i: cmake_force
@@ -556,7 +704,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o: 3rdparty/qtermwidget/lib/moc_Pty.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_Pty.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Pty.cpp.i: cmake_force
@@ -570,7 +718,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o: 3rdparty/qtermwidget/lib/moc_qtermwidget.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_qtermwidget.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_qtermwidget.cpp.i: cmake_force
@@ -584,7 +732,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o: 3rdparty/qtermwidget/lib/moc_ScreenWindow.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_ScreenWindow.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_ScreenWindow.cpp.i: cmake_force
@@ -598,7 +746,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o: 3rdparty/qtermwidget/lib/moc_SearchBar.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_SearchBar.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_SearchBar.cpp.i: cmake_force
@@ -612,7 +760,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o: 3rdparty/qtermwidget/lib/moc_Session.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_Session.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Session.cpp.i: cmake_force
@@ -626,7 +774,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o: 3rdparty/qtermwidget/lib/moc_TerminalDisplay.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_TerminalDisplay.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_TerminalDisplay.cpp.i: cmake_force
@@ -640,7 +788,7 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/flags.make
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o: 3rdparty/qtermwidget/lib/moc_Vt102Emulation.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o -MF CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o.d -o CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.o -c /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_Vt102Emulation.cpp
 
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/lib/moc_Vt102Emulation.cpp.i: cmake_force
@@ -738,7 +886,7 @@ qtermwidget6_EXTERNAL_OBJECTS =
 3rdparty/qtermwidget/libqtermwidget6.so.2.0.0: /usr/lib/x86_64-linux-gnu/libGLX.so
 3rdparty/qtermwidget/libqtermwidget6.so.2.0.0: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 3rdparty/qtermwidget/libqtermwidget6.so.2.0.0: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking CXX shared library libqtermwidget6.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/qing/Projects/Terminal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking CXX shared library libqtermwidget6.so"
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtermwidget6.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/qing/Projects/Terminal/build/3rdparty/qtermwidget && $(CMAKE_COMMAND) -E cmake_symlink_library libqtermwidget6.so.2.0.0 libqtermwidget6.so.2 libqtermwidget6.so
 
@@ -770,6 +918,43 @@ qtermwidget6_EXTERNAL_OBJECTS =
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/lib/moc_kptyprocess.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/lib/moc_qtermwidget.cpp
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget6_autogen/timestamp
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_ar.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_arn.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_ast.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_bg.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_ca.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_cs.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_cy.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_da.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_de.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_de_CH.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_el.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_es.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_et.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_fi.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_fr.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_gl.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_he.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_hr.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_hu.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_it.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_ja.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_ko.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_lg.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_lt.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_nb_NO.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_nl.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_oc.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_pl.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_pt.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_pt_BR.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_ru.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_si.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_sk.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_tr.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_uk.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_zh_CN.qm
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/qtermwidget_zh_TW.qm
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend: 3rdparty/qtermwidget/ui_SearchBar.h
 	cd /home/qing/Projects/Terminal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qing/Projects/Terminal /home/qing/Projects/Terminal/3rdparty/qtermwidget /home/qing/Projects/Terminal/build /home/qing/Projects/Terminal/build/3rdparty/qtermwidget /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : 3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/depend

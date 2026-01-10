@@ -4,6 +4,8 @@ TerminalEmulator_autogen/timestamp: \
 	/home/qing/Projects/Terminal/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/qing/Projects/Terminal/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/qing/Projects/Terminal/build/TerminalEmulator_autogen/moc_predefs.h \
+	/home/qing/Projects/Terminal/src/ColorSchemeDialog.cpp \
+	/home/qing/Projects/Terminal/src/ColorSchemeDialog.h \
 	/home/qing/Projects/Terminal/src/MainWindow.cpp \
 	/home/qing/Projects/Terminal/src/MainWindow.h \
 	/home/qing/Projects/Terminal/src/SSHDialog.cpp \
@@ -292,6 +294,7 @@ TerminalEmulator_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -408,6 +411,7 @@ TerminalEmulator_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qvalidator.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QComboBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialog \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QDialogButtonBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFormLayout \
@@ -417,8 +421,12 @@ TerminalEmulator_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSpinBox \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QVBoxLayout \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractitemdelegate.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractslider.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractspinbox.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qboxlayout.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qcombobox.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialogbuttonbox.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qformlayout.h \
@@ -430,8 +438,13 @@ TerminalEmulator_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qslider.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qspinbox.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyle.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qstyleoption.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \

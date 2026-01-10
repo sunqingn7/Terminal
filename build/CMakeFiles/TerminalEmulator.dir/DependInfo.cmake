@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "TerminalEmulator_autogen/timestamp" "custom" "TerminalEmulator_autogen/deps"
   "/home/qing/Projects/Terminal/build/TerminalEmulator_autogen/mocs_compilation.cpp" "CMakeFiles/TerminalEmulator.dir/TerminalEmulator_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/TerminalEmulator.dir/TerminalEmulator_autogen/mocs_compilation.cpp.o.d"
+  "/home/qing/Projects/Terminal/src/ColorSchemeDialog.cpp" "CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.o" "gcc" "CMakeFiles/TerminalEmulator.dir/src/ColorSchemeDialog.cpp.o.d"
   "/home/qing/Projects/Terminal/src/MainWindow.cpp" "CMakeFiles/TerminalEmulator.dir/src/MainWindow.cpp.o" "gcc" "CMakeFiles/TerminalEmulator.dir/src/MainWindow.cpp.o.d"
   "/home/qing/Projects/Terminal/src/SSHDialog.cpp" "CMakeFiles/TerminalEmulator.dir/src/SSHDialog.cpp.o" "gcc" "CMakeFiles/TerminalEmulator.dir/src/SSHDialog.cpp.o.d"
   "/home/qing/Projects/Terminal/src/main.cpp" "CMakeFiles/TerminalEmulator.dir/src/main.cpp.o" "gcc" "CMakeFiles/TerminalEmulator.dir/src/main.cpp.o.d"

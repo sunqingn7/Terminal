@@ -36,6 +36,18 @@ qtermwidget6_autogen/timestamp: \
 	/home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/qtermwidget_version.h.in \
 	/home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/tools.cpp \
 	/home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/tools.h \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-none.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake \
+	/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
@@ -54,6 +66,7 @@ qtermwidget6_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
 	/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake \
 	/usr/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake \
+	/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
 	/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake \
 	/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake \
 	/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
@@ -67,5 +80,11 @@ qtermwidget6_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
 	/usr/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake \
 	/usr/share/cmake-3.28/Modules/exportheader.cmake.in \
+	/usr/share/cmake/lxqt-build-tools/lxqt-build-tools-config-version.cmake \
+	/usr/share/cmake/lxqt-build-tools/lxqt-build-tools-config.cmake \
+	/usr/share/cmake/lxqt-build-tools/modules/LXQtCompilerSettings.cmake \
+	/usr/share/cmake/lxqt-build-tools/modules/LXQtCreatePkgConfigFile.cmake \
+	/usr/share/cmake/lxqt-build-tools/modules/LXQtPreventInSourceBuilds.cmake \
+	/usr/share/cmake/lxqt-build-tools/modules/LXQtTranslateTs.cmake \
 	/home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/SearchBar.ui \
 	/usr/bin/cmake

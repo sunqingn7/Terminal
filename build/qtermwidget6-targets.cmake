@@ -54,11 +54,11 @@ set_target_properties(qtermwidget6 PROPERTIES
   INTERFACE_LINK_LIBRARIES "Qt6::Widgets"
 )
 
-# Import target "qtermwidget6" for configuration ""
-set_property(TARGET qtermwidget6 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "qtermwidget6" for configuration "Release"
+set_property(TARGET qtermwidget6 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(qtermwidget6 PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/qing/Projects/Terminal/build/3rdparty/qtermwidget/libqtermwidget6.so.2.0.0"
-  IMPORTED_SONAME_NOCONFIG "libqtermwidget6.so.2"
+  IMPORTED_LOCATION_RELEASE "/home/qing/Projects/Terminal/build/3rdparty/qtermwidget/libqtermwidget6.so.2.0.0"
+  IMPORTED_SONAME_RELEASE "libqtermwidget6.so.2"
   )
 
 # This file does not depend on other imported targets which have

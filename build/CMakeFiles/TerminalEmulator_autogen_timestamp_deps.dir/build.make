@@ -66,9 +66,9 @@ include CMakeFiles/TerminalEmulator_autogen_timestamp_deps.dir/compiler_depend.m
 # Include the progress variables for this target.
 include CMakeFiles/TerminalEmulator_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/TerminalEmulator_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/TerminalEmulator_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/TerminalEmulator_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/TerminalEmulator_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/TerminalEmulator_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/TerminalEmulator_autogen_timestamp_deps: 3rdparty/qtermwidget/libqtermwidget6.so.2.0.0
 

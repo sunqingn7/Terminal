@@ -1,5 +1,11 @@
 -I/home/qing/Projects/Terminal/3rdparty/qtermwidget
 -I/home/qing/Projects/Terminal/build/3rdparty/qtermwidget
+-DQT_USE_QSTRINGBUILDER
+-DQT_NO_CAST_FROM_ASCII
+-DQT_NO_CAST_TO_ASCII
+-DQT_NO_URL_CAST_FROM_STRING
+-DQT_NO_CAST_FROM_BYTEARRAY
+-DQT_NO_FOREACH
 -o
 /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/lib/moc_SearchBar.cpp
 /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/SearchBar.h
