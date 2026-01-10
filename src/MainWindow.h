@@ -18,6 +18,8 @@ private slots:
     void connectSSH();
     void changeColorScheme();
     void changeFont();
+    void copy();
+    void paste();
 
 private:
     void createTerminalTab(const QString &program = "", const QStringList &args = QStringList());

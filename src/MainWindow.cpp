@@ -3,6 +3,7 @@
 #include <QAction>
 #include <QFontDialog>
 #include <QCoreApplication>
+#include <QShortcut>
 #include <qtermwidget.h>
 #include "SSHDialog.h"
 #include "ColorSchemeDialog.h"
@@ -39,6 +40,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     QAction *fontAction = new QAction("&Font", this);
     connect(fontAction, &QAction::triggered, this, &MainWindow::changeFont);
     settingsMenu->addAction(fontAction);
+
+    // Shortcuts
+    QShortcut *copyShortcut = new QShortcut(QKeySequence::Copy, this);
+    connect(copyShortcut, &QShortcut::activated, this, &MainWindow::copy);
+
+    QShortcut *pasteShortcut = new QShortcut(QKeySequence::Paste, this);
+    connect(pasteShortcut, &QShortcut::activated, this, &MainWindow::paste);
 
     createTerminalTab();
 }
@@ -103,6 +111,30 @@ void MainWindow::changeFont()
     }
 }
 
+void MainWindow::copy()
+{
+    int currentIndex = tabWidget->currentIndex();
+    if (currentIndex >= 0) {
+        QWidget *tab = tabWidget->widget(currentIndex);
+        QTermWidget *term = tab->findChild<QTermWidget*>();
+        if (term) {
+            term->copyClipboard();
+        }
+    }
+}
+
+void MainWindow::paste()
+{
+    int currentIndex = tabWidget->currentIndex();
+    if (currentIndex >= 0) {
+        QWidget *tab = tabWidget->widget(currentIndex);
+        QTermWidget *term = tab->findChild<QTermWidget*>();
+        if (term) {
+            term->pasteClipboard();
+        }
+    }
+}
+
 void MainWindow::createTerminalTab(const QString &program, const QStringList &args)
 {
     QWidget *tab = new QWidget;
@@ -110,6 +142,9 @@ void MainWindow::createTerminalTab(const QString &program, const QStringList &ar
 
     QTermWidget *term = new QTermWidget(0, tab);
     layout->addWidget(term);
+
+    // Enable context menu
+    term->setContextMenuPolicy(Qt::DefaultContextMenu);
 
     if (!program.isEmpty()) {
         term->setShellProgram(program);
