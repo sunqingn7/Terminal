@@ -66,9 +66,9 @@ include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps.dir/
 # Include the progress variables for this target.
 include 3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps.dir/progress.make
 
+3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
-3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 
 qtermwidget6_autogen_timestamp_deps: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps
 qtermwidget6_autogen_timestamp_deps: 3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps.dir/build.make

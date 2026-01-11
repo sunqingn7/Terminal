@@ -101,6 +101,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-none.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestDependencies.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets-none.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestVersionlessTargets.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake"
@@ -182,6 +190,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/TerminalEmulator_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/test_app_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/qtermwidget_version.h"
@@ -196,8 +205,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TerminalEmulator.dir/DependInfo.cmake"
+  "CMakeFiles/test_app.dir/DependInfo.cmake"
   "CMakeFiles/TerminalEmulator_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/TerminalEmulator_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/test_app_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/test_app_autogen.dir/DependInfo.cmake"
   "3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir/DependInfo.cmake"
   "3rdparty/qtermwidget/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "3rdparty/qtermwidget/CMakeFiles/qtermwidget6_autogen_timestamp_deps.dir/DependInfo.cmake"

@@ -1,0 +1,29 @@
+Start testing: Jan 09 21:46 EST
+----------------------------------------------------------
+1/1 Testing: test_app
+1/1 Test: test_app
+Command: "/home/qing/Projects/Terminal/build/test_app"
+Directory: /home/qing/Projects/Terminal/build
+"test_app" start time: Jan 09 21:46 EST
+Output:
+----------------------------------------------------------
+********* Start testing of TestTerminalEmulator *********
+Config: Using QtTest library 6.4.2, Qt 6.4.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 13.2.0), ubuntu 24.04
+PASS   : TestTerminalEmulator::initTestCase()
+FAIL!  : TestTerminalEmulator::testColorSchemes() 'schemes.contains("Black on White")' returned FALSE. ()
+   Loc: [/home/qing/Projects/Terminal/src/tests/test_main.cpp(14)]
+QDEBUG : TestTerminalEmulator::testQTermWidgetCreation() Unable to load translator "default"
+FAIL!  : TestTerminalEmulator::testQTermWidgetCreation() 'term->availableColorSchemes().size() > 0' returned FALSE. ()
+   Loc: [/home/qing/Projects/Terminal/src/tests/test_main.cpp(22)]
+PASS   : TestTerminalEmulator::cleanupTestCase()
+Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 21ms
+********* Finished testing of TestTerminalEmulator *********
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"test_app" end time: Jan 09 21:46 EST
+"test_app" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 09 21:46 EST

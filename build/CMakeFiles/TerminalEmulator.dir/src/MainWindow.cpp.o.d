@@ -359,13 +359,9 @@ CMakeFiles/TerminalEmulator.dir/src/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication_platform.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \
- /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/qtermwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QTranslator \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtranslator.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Emulation.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QKeyEvent \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QShortcut \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qshortcut.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QContextMenuEvent \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
@@ -387,6 +383,15 @@ CMakeFiles/TerminalEmulator.dir/src/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenu \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h \
+ /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/qtermwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QTranslator \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qtranslator.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+ /home/qing/Projects/Terminal/3rdparty/qtermwidget/lib/Emulation.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QKeyEvent \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QStringDecoder \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTextStream \

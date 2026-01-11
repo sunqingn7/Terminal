@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/qing/Projects/Terminal/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -175,6 +185,19 @@ TerminalEmulator/fast:
 .PHONY : TerminalEmulator/fast
 
 #=============================================================================
+# Target rules for targets named test_app
+
+# Build rule for target.
+test_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_app
+.PHONY : test_app
+
+# fast build rule for target.
+test_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/build
+.PHONY : test_app/fast
+
+#=============================================================================
 # Target rules for targets named TerminalEmulator_autogen_timestamp_deps
 
 # Build rule for target.
@@ -199,6 +222,32 @@ TerminalEmulator_autogen: cmake_check_build_system
 TerminalEmulator_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TerminalEmulator_autogen.dir/build.make CMakeFiles/TerminalEmulator_autogen.dir/build
 .PHONY : TerminalEmulator_autogen/fast
+
+#=============================================================================
+# Target rules for targets named test_app_autogen_timestamp_deps
+
+# Build rule for target.
+test_app_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_app_autogen_timestamp_deps
+.PHONY : test_app_autogen_timestamp_deps
+
+# fast build rule for target.
+test_app_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app_autogen_timestamp_deps.dir/build.make CMakeFiles/test_app_autogen_timestamp_deps.dir/build
+.PHONY : test_app_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named test_app_autogen
+
+# Build rule for target.
+test_app_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_app_autogen
+.PHONY : test_app_autogen
+
+# fast build rule for target.
+test_app_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app_autogen.dir/build.make CMakeFiles/test_app_autogen.dir/build
+.PHONY : test_app_autogen/fast
 
 #=============================================================================
 # Target rules for targets named qtermwidget6
@@ -372,6 +421,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TerminalEmulator.dir/build.make CMakeFiles/TerminalEmulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tests/test_main.o: src/tests/test_main.cpp.o
+.PHONY : src/tests/test_main.o
+
+# target to build an object file
+src/tests/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/src/tests/test_main.cpp.o
+.PHONY : src/tests/test_main.cpp.o
+
+src/tests/test_main.i: src/tests/test_main.cpp.i
+.PHONY : src/tests/test_main.i
+
+# target to preprocess a source file
+src/tests/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/src/tests/test_main.cpp.i
+.PHONY : src/tests/test_main.cpp.i
+
+src/tests/test_main.s: src/tests/test_main.cpp.s
+.PHONY : src/tests/test_main.s
+
+# target to generate assembly for a file
+src/tests/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/src/tests/test_main.cpp.s
+.PHONY : src/tests/test_main.cpp.s
+
+test_app_autogen/mocs_compilation.o: test_app_autogen/mocs_compilation.cpp.o
+.PHONY : test_app_autogen/mocs_compilation.o
+
+# target to build an object file
+test_app_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/test_app_autogen/mocs_compilation.cpp.o
+.PHONY : test_app_autogen/mocs_compilation.cpp.o
+
+test_app_autogen/mocs_compilation.i: test_app_autogen/mocs_compilation.cpp.i
+.PHONY : test_app_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+test_app_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/test_app_autogen/mocs_compilation.cpp.i
+.PHONY : test_app_autogen/mocs_compilation.cpp.i
+
+test_app_autogen/mocs_compilation.s: test_app_autogen/mocs_compilation.cpp.s
+.PHONY : test_app_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+test_app_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/test_app_autogen/mocs_compilation.cpp.s
+.PHONY : test_app_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -384,13 +481,17 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... TerminalEmulator_autogen"
 	@echo "... TerminalEmulator_autogen_timestamp_deps"
 	@echo "... qtermwidget6_autogen"
 	@echo "... qtermwidget6_autogen_timestamp_deps"
+	@echo "... test_app_autogen"
+	@echo "... test_app_autogen_timestamp_deps"
 	@echo "... uninstall"
 	@echo "... TerminalEmulator"
 	@echo "... qtermwidget6"
+	@echo "... test_app"
 	@echo "... TerminalEmulator_autogen/mocs_compilation.o"
 	@echo "... TerminalEmulator_autogen/mocs_compilation.i"
 	@echo "... TerminalEmulator_autogen/mocs_compilation.s"
@@ -406,6 +507,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tests/test_main.o"
+	@echo "... src/tests/test_main.i"
+	@echo "... src/tests/test_main.s"
+	@echo "... test_app_autogen/mocs_compilation.o"
+	@echo "... test_app_autogen/mocs_compilation.i"
+	@echo "... test_app_autogen/mocs_compilation.s"
 .PHONY : help
 
 

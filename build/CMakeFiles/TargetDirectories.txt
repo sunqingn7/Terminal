@@ -1,4 +1,6 @@
 /home/qing/Projects/Terminal/build/CMakeFiles/TerminalEmulator.dir
+/home/qing/Projects/Terminal/build/CMakeFiles/test_app.dir
+/home/qing/Projects/Terminal/build/CMakeFiles/test.dir
 /home/qing/Projects/Terminal/build/CMakeFiles/edit_cache.dir
 /home/qing/Projects/Terminal/build/CMakeFiles/rebuild_cache.dir
 /home/qing/Projects/Terminal/build/CMakeFiles/list_install_components.dir
@@ -7,8 +9,11 @@
 /home/qing/Projects/Terminal/build/CMakeFiles/install/strip.dir
 /home/qing/Projects/Terminal/build/CMakeFiles/TerminalEmulator_autogen_timestamp_deps.dir
 /home/qing/Projects/Terminal/build/CMakeFiles/TerminalEmulator_autogen.dir
+/home/qing/Projects/Terminal/build/CMakeFiles/test_app_autogen_timestamp_deps.dir
+/home/qing/Projects/Terminal/build/CMakeFiles/test_app_autogen.dir
 /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/qtermwidget6.dir
 /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/uninstall.dir
+/home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/test.dir
 /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/edit_cache.dir
 /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/rebuild_cache.dir
 /home/qing/Projects/Terminal/build/3rdparty/qtermwidget/CMakeFiles/list_install_components.dir
